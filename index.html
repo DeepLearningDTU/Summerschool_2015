@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="frontpage">
+    <article class="post">
+
+    Welcome to the DTU summer school 02901 Advanced Topics in Machine Learning - Deep Learning. We will post links to excercises and other information on this page.
+    <br><br>
+    <a href="http://www2.compute.dtu.dk/courses/02901/">Official Course description</a> 
+    <br><br>
+     <a href="http://www2.compute.dtu.dk/courses/02901/courseprogram.pdf">Course Program</a> 
+
+     <br><br>
+     We will post the code for the exercises on <a href="https://github.com/DTU-deeplearning/">https://github.com/DTU-deeplearning/</a>.
+     <br><br>
+
+     If you have any questions to the installation instructions or exercises please ask questions under the relevant subpage by posting a comment.
+     <br><br>
+
+     <h1>Exercises</h1>
+     <hr>
+</div>
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>

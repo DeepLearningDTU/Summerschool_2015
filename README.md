@@ -1,1 +1,5 @@
-# Summerschool_2015
+### DTU deep learning dummer school 2015
+
+Please see [http://deeplearningdtu.github.io/Summerschool_2015/](http://deeplearningdtu.github.io/Summerschool_2015/)
+
+
